@@ -1,30 +1,12 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import AboutImg from '../../assets/images/about-us.jpg'
+import Header from '../common/Header';
+import Footer from '../common/Footer';
 const Home = () => {
   return (
     <>
-    <header>
-    <div className="container py-3 ">
-    <Navbar expand="lg" >
-        <Navbar.Brand href="#home" className='logo'><span>UrbanEdge</span> Construction</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#home" className='Nav-link'>Home</Nav.Link>
-            <Nav.Link href="#home" className='Nav-link'>About Us</Nav.Link>
-            <Nav.Link href="#home" className='Nav-link'>Services</Nav.Link>
-            <Nav.Link href="#home" className='Nav-link'>Projects</Nav.Link>
-            <Nav.Link href="#link" className='Nav-link'>Blogs</Nav.Link>
-            <Nav.Link href="#link" className='Nav-link'>Contact Us</Nav.Link>
-          
-          </Nav>
-        </Navbar.Collapse>
-    </Navbar>        
-    </div>
-  
-  </header>
+<Header/>
   <main >
     {/* hero section  */}
 <section className='section-1'>
@@ -59,9 +41,7 @@ const Home = () => {
     </div>
 </section>
   </main>
-  <footer>
-
-  </footer>
+<Footer/>
     </>
 
 

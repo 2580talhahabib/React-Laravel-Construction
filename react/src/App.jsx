@@ -3,7 +3,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Home from './components/frontant/Home';
-import About from './components/About';
+import About from './components/frontant/About';
 import './assets/css/style.scss';
 
 

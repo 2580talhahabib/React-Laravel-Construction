@@ -119,3 +119,15 @@ footer{
         text-decoration: none;
     }
 }
+.section-3{
+    span{
+        color: $primary-color;
+        font-family: 1.5em;
+        text-transform: uppercase;
+        font-size: 500;
+        padding-bottom: 10px;
+    }
+    .bg-light{
+background-color:#9e9b9b;
+    }
+}

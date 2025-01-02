@@ -40,6 +40,17 @@ const Home = () => {
         </div>
     </div>
 </section>
+{/* our services  */}
+<section className="section-3 ">
+  <div className="container-fluid bg-light py-5">
+    <div className="section-header text-center py-5">
+      <span>Our services</span>
+      <h2>our construction services</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, vitae neque quasi nam suscipit nihil?</p>
+    </div>
+
+  </div>
+</section>
   </main>
 <Footer/>
     </>
